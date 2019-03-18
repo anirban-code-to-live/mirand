@@ -35,4 +35,4 @@ The next *n* lines are as follows:
 	
 	node_id dim1 dim2 ... dimd
 
-where dim1, ... , dimd is the *d*-dimensional representation learned by *node2vec*.
+where dim1, ... , dimd is the *d*-dimensional representation learned by *mirand*.
