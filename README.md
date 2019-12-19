@@ -1,17 +1,32 @@
-The *mirand* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph. 
+The *mirand* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph.
+
+#### Environment Set-up
+
+- Clone the repository.
+- Navigate to the base directory of mirand (the download location)
+- Create a virtual environment using the following command:<br/>
+``virtualenv venv``<br/>
+(If **virtualenv** package is not installed, please install using pip)
+- Activate the environment using:<br/>
+``source venv/bin/activate``
+- Install required python modules to run the code.<br/>
+``pip install -r requirements.txt``
+
+Congratulations!! You are now setup to run the code.
+  
 
 ### Basic Usage
 
 #### Input
 
-- Look at the sample dataset cora. If you want to experiment on different datasets, create a folder with name of your dataset.
+- Look at the sample dataset cora (residing inside data directory). If you want to experiment on different datasets, create a folder with name of your dataset.
 - Two files are required to run and generate the embedding - edgelist file for structure graph and edgelist file for content graph
 - Naming convention for link structure layer: *<dataset_name>_struc.edgelist*
 - Naming convention for content/attribute layer: *<dataset_name>_attr.edgelist*
 
 
 #### Example
-To run *mirand* on Zachary's karate club network, execute the following command from the project home directory:<br/>
+To run **mirand** on *cora* network, execute the following command from **src** directory inside the project home path:<br/>
 	``python main.py --input-struc ../data/cora/cora_struc.edgelist --input-attr ../data/cora/cora_attr.edgelist --output ../data/cora/cora.embed --dataset=cora --dimensions=128``
 
 #### Options
