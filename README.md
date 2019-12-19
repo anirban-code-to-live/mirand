@@ -1,6 +1,8 @@
 The *mirand* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph.
 
-#### Environment Set-up
+### Environment Set-up
+
+**Use python version 2.7**
 
 - Clone the repository.
 - Navigate to the base directory of mirand (the download location)
