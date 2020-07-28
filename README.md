@@ -1,4 +1,4 @@
-The *mirand* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph.
+The *mirand* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph. Paper accepted at ECAI-2020 (http://ecai2020.eu/papers/1648_paper.pdf)
 
 ### Environment Set-up
 
